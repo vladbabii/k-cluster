@@ -18,7 +18,9 @@ echo \
 echo "{ \"registry-mirrors\": [\"http://10.11.9.197:5000\"] }" > /etc/docker/daemon.json
 
 apt-get update
+
 apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose
+
 systemctl status docker
 ```
 
